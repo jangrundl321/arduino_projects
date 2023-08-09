@@ -5,8 +5,8 @@
 #include <ESPAsyncWebServer.h>
 
 // set network and password
-const char* ssid = "MagentaWLAN-GZF2";
-const char* password = "23466747730399607166";
+const char* ssid = "";
+const char* password = "";
 
 // variables for touch sensor
 const int TOUCH_SENSOR_PIN = 5;
