@@ -2,13 +2,13 @@
 #include "ThingSpeak.h"
 
 // set network and password
-const char* ssid = "MagentaWLAN-GZF2";
-const char* password = "23466747730399607166";
+const char* ssid = "";
+const char* password = "";
 
 WiFiClient  client;
 
-long unsigned int myChannelNumber = 2145747;
-const char * myWriteAPIKey = "NWV37OXCHXPNJ6ZA";
+long unsigned int myChannelNumber = 0;
+const char * myWriteAPIKey = "";
 const int channelField = 1;
 
 // variables for touch sensor
